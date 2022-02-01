@@ -19,7 +19,8 @@
 </head>
 <body>
 
-<div class='fixed right-0 text-white mr-3 mt-2 select-none font-semibold'>
+<div class='fixed bottom-0 text-white ml-3 mt-2 select-none font-semibold'>
+    
     <span>
         Score: 
     </span>
@@ -27,12 +28,20 @@
         0
     </span>
 </div>
+<div id='missile' class='fixed right-0 bottom-0 text-white mr-3 text-black font-semibold select-none'>
+    
+    <span>
+        God Missile initiated
+    </span>
+</div>
+
 
 
 <div id='score-box' class="fixed inset-0 flex items-center select-none rounded justify-center font-semibold">
     <div class="bg-white max-w-md w-full p-6 text-center">
         <h1 id='final-score' class='text-5xl font-bold leading-none'>0</h1>
         <p class="mb-4 text-gray-600">Points</p>
+        <p class="mb-4 text-gray-500 hint">Hint: The red lazer is deadly use it wisely </p>
         <div>
             <button id='startBtn' class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-4 rounded-full w-half text-xl mr-5">
                 Retry
